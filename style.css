@@ -151,11 +151,11 @@ h2 {
   right: 240px;
 }
 
-.games {
+.trendingGames {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 180px 0px 180px;
+  padding: 60px 180px 60px 180px;
 }
 
 .sectionGames {
@@ -168,4 +168,15 @@ h2 {
   color: white;
   border: none;
   background-color: rgba(255, 255, 255, 0.11);
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.games > img:hover {
+  transform: scale(1.1);
 }

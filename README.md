@@ -13,14 +13,14 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Configurar os botões.
 - [ ] Validar as inserções de textos.
 - [ ] Aplicar responsividade.
-- [ ] Aplicar efeitos de Hover.
+- [x] Aplicar efeitos de Hover.
 - [ ] Mensagem de confirmação ao enviar os dados do formulário corretamente.
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você possui algum IDE(Integrated Development Environment).
+- Você possui algum IDE (Integrated Development Environment).
 - Seu navegador está atualizado.
 - É recomendável o uso do Chrome ou do Opera.
 
