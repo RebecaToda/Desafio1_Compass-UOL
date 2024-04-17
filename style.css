@@ -1,0 +1,171 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #39289f;
+  background-image: linear-gradient(0px #39289f 0%, #422f9c 100%);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+.logo {
+  font-size: 29px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 95px;
+  width: 100%;
+  height: 12vh;
+}
+
+header > div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 70px;
+}
+
+.headerOptions {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 16px;
+  gap: 80px;
+  position: relative;
+}
+
+.headerOptions .underBar {
+  position: absolute;
+  content: "";
+  width: 31px;
+  height: 4px;
+  background-color: #dc7000;
+  bottom: 0;
+  transform: translate(-6px, 14px);
+}
+
+.contactUs {
+  padding: 11px 30px;
+  border-radius: 6px;
+  background-color: #fa9021;
+  font-size: 13px;
+  color: white;
+  border: none;
+}
+
+.introduction {
+  display: flex;
+  padding: 120px 180px;
+}
+
+.text1 {
+  width: 512px;
+}
+
+.prodesigner {
+  font-size: 20px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #e87d0e;
+  padding-bottom: 17px;
+}
+
+h2 {
+  font-size: 50px;
+  padding-bottom: 26px;
+}
+
+.legend1 {
+  line-height: 200%;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.btnDetails {
+  background-image: linear-gradient(to bottom right, #fa8305 0%, #fb9e3c 100%);
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 40px;
+  font-size: 16px;
+}
+
+.joystick {
+  max-width: 760px;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.unity {
+  position: absolute;
+  top: 410px;
+  right: 715px;
+}
+
+.cry {
+  position: absolute;
+  top: 202px;
+  right: 530px;
+}
+
+.unreal {
+  position: absolute;
+  top: 218px;
+  right: 240px;
+}
+
+.games {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 180px 0px 180px;
+}
+
+.sectionGames {
+  font-size: 31px;
+}
+.btnGames {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.11);
+}
