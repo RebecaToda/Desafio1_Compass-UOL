@@ -22,6 +22,13 @@
   font-style: normal;
 }
 
+.rubik-medium {
+  font-family: "rubik", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+}
+
 *,
 html,
 body {
@@ -175,8 +182,47 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  padding-bottom: 25px;
 }
 
 .games > img:hover {
   transform: scale(1.1);
+}
+
+.followers {
+  padding-left: 218px;
+  display: flex;
+  gap: 120px;
+}
+
+.game1 {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.game2 {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.game3 {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.game4 {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
 }
