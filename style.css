@@ -91,9 +91,12 @@ header > div {
   gap: 70px;
 }
 
+ul {
+  list-style: none;
+}
+
 .headerOptions {
   display: flex;
-  list-style: none;
   align-items: center;
   font-size: 16px;
   gap: 80px;
@@ -137,6 +140,7 @@ section {
   margin-top: 24vh;
   width: 50%;
   padding-bottom: 10vh;
+  width: 40%;
 }
 
 .prodesigner {
@@ -177,23 +181,23 @@ section {
 }
 
 .joystick {
-  left: 68%;
+  left: 88%;
   top: 50%;
   height: fit-content;
 }
 
 .unity {
-  left: 7%;
+  left: 20%;
   top: 57%;
 }
 
 .cry {
-  left: 35%;
+  left: 45%;
   top: 30%;
 }
 
 .unreal {
-  left: 85%;
+  left: 105%;
   top: 30%;
 }
 
@@ -392,25 +396,33 @@ h4 {
   padding: 3% 4%;
   display: flex;
   flex-direction: column;
-}
-
-.emailContainer .text {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.emailContainer div .emailAdress {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  width: 30%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .emailAdress {
   background-color: white;
   padding: 14px 20px 14px 0px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.emailContainer .text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.emailContainer div .emailAdress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  width: 50%;
 }
 
 #emailInput {
@@ -420,6 +432,7 @@ h4 {
   display: flex;
   flex-direction: column;
   outline: none;
+  width: 180px;
 }
 
 .btnEmail {
@@ -430,4 +443,80 @@ h4 {
   border-radius: 8px;
   padding: 9px 18px;
   text-align: center;
+  align-items: center;
+  width: 110px;
+}
+
+footer {
+  background-color: #070707;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upFooter {
+  padding: 80px 100px 60px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upFooter .logo {
+  width: 25%;
+}
+
+.upFooter .logo h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.upFooter .logo p {
+  font-size: 16px;
+}
+
+.atSign {
+  padding-top: 25px;
+}
+
+.upFooter .about {
+  width: 7%;
+}
+
+.upFooter .about h3 {
+  padding-bottom: 15px;
+}
+
+.upFooter .about ul li {
+  padding-bottom: 10px;
+}
+
+.upFooter .contact {
+  width: 20%;
+}
+
+.upFooter .contact h3 {
+  padding-bottom: 15px;
+}
+
+.upFooter .contact ul li {
+  padding-bottom: 20px;
+}
+
+.socialIcons {
+  width: 12%;
+  align-self: flex-end;
+}
+
+.line {
+  border-bottom: 0.8px solid #d2d2d2;
+}
+
+.copyright {
+  font-size: 13px;
+  padding: 40px;
+  text-align: center;
+  align-self: center;
 }
