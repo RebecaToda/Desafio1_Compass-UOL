@@ -82,6 +82,7 @@ header {
   position: fixed;
   background-color: linear-gradient(#39289f, #39289f);
   z-index: 1;
+  flex-wrap: wrap;
 }
 
 header > div {
@@ -101,6 +102,7 @@ ul {
   font-size: 16px;
   gap: 80px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .headerOptions .underBar {
@@ -181,24 +183,19 @@ section {
 }
 
 .joystick {
-  left: 88%;
   top: 50%;
+  transform: translateX(15%);
+  width: 100%;
   height: fit-content;
 }
 
-.unity {
-  left: 20%;
-  top: 57%;
-}
-
-.cry {
-  left: 45%;
-  top: 30%;
-}
-
-.unreal {
-  left: 105%;
-  top: 30%;
+@media only screen and (max-width: 1200px) {
+  .joystick {
+    display: none;
+  }
+  .introduction .text1 {
+    width: 80%;
+  }
 }
 
 .gameSection {
@@ -300,7 +297,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("images/section4/background.png");
+  background-image: url("images/mainPage/section4/background.png");
   background-size: 100%;
   background-size: cover;
   background-position: center;
@@ -402,9 +399,17 @@ h4 {
   border-radius: 15px;
   padding: 3% 4%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.emailContainer .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .emailAdress {
@@ -412,24 +417,9 @@ h4 {
   padding: 14px 20px 14px 0px;
   border-radius: 8px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.emailContainer .text {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-}
-
-.emailContainer div .emailAdress {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-self: flex-end;
-  width: 50%;
+  align-items: stretch;
+  gap: 4px;
 }
 
 #emailInput {
@@ -439,7 +429,7 @@ h4 {
   display: flex;
   flex-direction: column;
   outline: none;
-  width: 180px;
+  width: 270px;
 }
 
 .btnEmail {
