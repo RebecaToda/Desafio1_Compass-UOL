@@ -41,7 +41,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  transition: ease-in-out 200ms; /*adiciona suavidade nas alterações*/
+  transition: ease-in-out 200ms;
 }
 
 body {
@@ -50,6 +50,16 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: white;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 .logo {
@@ -100,7 +110,6 @@ header > div {
   background-color: #fa9021;
   font-size: 13px;
   color: white;
-  border: none;
 }
 
 main {
@@ -146,8 +155,6 @@ h2 {
 .btnDetails {
   background-image: linear-gradient(to bottom right, #fa8305 0%, #fb9e3c 100%);
   padding: 15px 30px;
-  text-align: center;
-  border: none;
   background-size: 200% auto;
   color: white;
   border-radius: 40px;
@@ -164,7 +171,7 @@ h2 {
 }
 
 .joystick {
-  left: 70%;
+  left: 68%;
   top: 50%;
   height: fit-content;
 }
@@ -202,7 +209,6 @@ h2 {
   border-radius: 10px;
   padding: 10px 30px;
   color: white;
-  border: none;
   background-color: rgba(255, 255, 255, 0.11);
 }
 
@@ -221,7 +227,7 @@ h2 {
   gap: 25px;
 }
 
-.galery .card > img:hover {
+.gameSection .galery .card > img:hover {
   transform: scale(1.1);
 }
 
@@ -229,11 +235,6 @@ h2 {
   display: flex;
   align-items: center;
   gap: 9px;
-}
-
-.section3 {
-  width: 700px;
-  padding-left: 150px;
 }
 
 h4 {
@@ -280,4 +281,45 @@ h4 {
   right: 15%;
   width: 200px;
   z-index: -1;
+}
+
+.developmentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/section4/background.png");
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+}
+
+.developmentSection .text {
+  width: 70%;
+  text-align: center;
+}
+.developmentSection h2 {
+  font-size: 30px;
+  padding-bottom: 16px;
+}
+
+.developmentSection .poppins-medium {
+  font-size: 16px;
+}
+
+.textDevelopment {
+  align-self: center;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.developmentSection .galery {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.developmentSection .galery .card {
 }
