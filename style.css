@@ -1,3 +1,9 @@
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -10,15 +16,15 @@
   font-style: normal;
 }
 
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -32,7 +38,6 @@
   font-family: "rubik", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 22px;
 }
 
 *,
@@ -56,6 +61,7 @@ button {
   border: none;
   cursor: pointer;
   outline: none;
+  text-align: center;
 }
 
 button:hover {
@@ -141,7 +147,7 @@ section {
   padding-bottom: 17px;
 }
 
-h2 {
+.introduction .text1 h2 {
   font-size: 50px;
   padding-bottom: 26px;
 }
@@ -232,6 +238,7 @@ h2 {
 }
 
 .gameTitle {
+  font-size: 22px;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -321,5 +328,106 @@ h4 {
   gap: 100px;
 }
 
-.developmentSection .galery .card {
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectsSection .textContent {
+  width: 40%;
+  text-align: center;
+}
+
+.projectsSection .textContent h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.projectsSection .textContent p {
+  font-size: 14px;
+  padding-bottom: 10%;
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.btnProjects {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.newsEmail {
+  padding-bottom: 10%;
+}
+
+.newsEmail .text {
+  width: 50%;
+}
+.newsEmail .text .title {
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+
+.newsEmail .text .legend {
+  font-size: 16px;
+  padding-bottom: 13%;
+}
+
+.emailContainer {
+  background-color: #1c140f;
+  border-radius: 15px;
+  padding: 3% 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailContainer .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.emailContainer div .emailAdress {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 30%;
+}
+
+.emailAdress {
+  background-color: white;
+  padding: 14px 20px 14px 0px;
+  border-radius: 8px;
+}
+
+#emailInput {
+  padding-left: 20px;
+  color: #898989;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.btnEmail {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #dc7000;
+  border-radius: 8px;
+  padding: 9px 18px;
+  text-align: center;
 }

@@ -12,7 +12,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Criar uma página de erro.
 - [ ] Configurar os botões.
 - [ ] Validar as inserções de textos.
-- [ ] Aplicar responsividade.
+- [x] Aplicar responsividade.
 - [x] Aplicar efeitos de Hover.
 - [ ] Mensagem de confirmação ao enviar os dados do formulário corretamente.
 
