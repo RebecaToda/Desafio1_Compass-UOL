@@ -16,6 +16,12 @@
   font-style: normal;
 }
 
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .poppins-extrabold {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -35,6 +41,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  transition: ease-in-out 200ms; /*adiciona suavidade nas alterações*/
 }
 
 body {
@@ -56,6 +63,9 @@ header {
   padding: 0px 95px;
   width: 100%;
   height: 12vh;
+  position: fixed;
+  background-color: linear-gradient(#39289f, #39289f);
+  z-index: 1;
 }
 
 header > div {
@@ -93,13 +103,25 @@ header > div {
   border: none;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 129px;
+}
+
+section {
+  padding: 0 10%;
+}
+
 .introduction {
   display: flex;
-  padding: 120px 180px;
 }
 
 .text1 {
-  width: 512px;
+  margin-top: 24vh;
+  width: 50%;
+  padding-bottom: 10vh;
 }
 
 .prodesigner {
@@ -132,42 +154,49 @@ h2 {
   font-size: 16px;
 }
 
-.joystick {
-  max-width: 760px;
-  height: inherit;
+.images {
+  width: 50%;
+  position: relative;
+}
+.images img {
+  transform: translate(-50%, -50%);
   position: absolute;
-  top: 0;
-  right: 30px;
+}
+
+.joystick {
+  left: 70%;
+  top: 50%;
+  height: fit-content;
 }
 
 .unity {
-  position: absolute;
-  top: 410px;
-  right: 715px;
+  left: 7%;
+  top: 57%;
 }
 
 .cry {
-  position: absolute;
-  top: 202px;
-  right: 530px;
+  left: 35%;
+  top: 30%;
 }
 
 .unreal {
-  position: absolute;
-  top: 218px;
-  right: 240px;
+  left: 85%;
+  top: 30%;
+}
+
+.gameSection {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
 }
 
 .trendingGames {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 180px 60px 180px;
-}
-
-.sectionGames {
   font-size: 31px;
 }
+
 .btnGames {
   font-size: 20px;
   border-radius: 10px;
@@ -177,52 +206,78 @@ h2 {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.games {
+.galery {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding-bottom: 25px;
+  gap: 32px;
 }
 
-.games > img:hover {
+.galery .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.galery .card > img:hover {
   transform: scale(1.1);
 }
 
-.followers {
-  padding-left: 218px;
-  display: flex;
-  gap: 120px;
-}
-
-.game1 {
-  width: 170px;
+.gameTitle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 9px;
 }
 
-.game2 {
-  width: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 9px;
+.section3 {
+  width: 700px;
+  padding-left: 150px;
 }
 
-.game3 {
-  width: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 9px;
+h4 {
+  font-size: 30px;
+  padding-bottom: 32px;
 }
 
-.game4 {
-  width: 170px;
+.text2 {
+  font-size: 16px;
+}
+
+.spiderManSection {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 9px;
+  flex-direction: column;
+  gap: 67px;
+}
+
+.spiderManSection h3 {
+  align-self: center;
+  text-align: center;
+  font-size: 35px;
+  width: 65%;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 43%;
+}
+
+.imageContent {
+  width: 100%;
+  padding-bottom: 8%;
+}
+
+.imageContent .spiderImage {
+  width: 100%;
+}
+
+.imageContent .dots {
+  position: absolute;
+  transform: translate(-50%, -43%);
+  right: 15%;
+  width: 200px;
+  z-index: -1;
 }

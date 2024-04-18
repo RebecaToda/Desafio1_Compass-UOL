@@ -7,13 +7,13 @@
   <title>Desafio 1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/fdv6jmo.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <h1 class="logo poppins-extrabold">LOGO</h1>
     <div>
       <ul class="headerOptions poppins-regular">
@@ -26,55 +26,71 @@
       <button class="contactUs poppins-regular">Contact Us</button>
     </div>
   </header>
-
-  <section class="introduction">
-    <div class=text1>
-      <p class="prodesigner poppins-bold">Proved By prodesigner</p>
-      <h2 class="poppins-bold">Work that we produce for our clients</h2>
-      <p class="legend1 poppins-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-      <button class="btnDetails poppins-medium">Get more details</button>
-    </div>
-    <div>
-      <img src="images/section1/unity.png" alt="unity logo" class="unity">
-      <img src="images/section1/cry.png" alt="cry logo" class="cry">
-      <img src="images/section1/unreal.png" alt="unreal logo" class="unreal">
-      <img src="images/section1/joy_stick.png" alt="A white joystick" class="joystick">
-    </div>
-  </section>
-
-  <section>
-    <div class="trendingGames">
-      <h3 class="sectionGames poppins-bold">Currently Trending Games</h3>
-      <button class="btnGames poppins-medium">SEE ALL</button>
-    </div>
-    <div class="gallery">
-      <div class="games">
-        <img src="images/section2/game1.png">
-        <img src="images/section2/game2.png">
-        <img src="images/section2/game3.png">
-        <img src="images/section2/game4.png">
+  <main>
+    <section class="introduction">
+      <div class=text1>
+        <p class="prodesigner poppins-bold">Proved By prodesigner</p>
+        <h2 class="poppins-bold">Work that we produce for our clients</h2>
+        <p class="legend1 poppins-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+        <button class="btnDetails poppins-medium">Get more details</button>
       </div>
-      <div class="followers">
-        <div class="game1 rubik-medium">
-          <img src="images/section2/fire.png" alt="A fire icon">
-          <p> 40 Followers</p>
+      <div class="images">
+        <img src="images/section1/unity.png" alt="unity logo" class="unity">
+        <img src="images/section1/cry.png" alt="cry logo" class="cry">
+        <img src="images/section1/unreal.png" alt="unreal logo" class="unreal">
+        <img src="images/section1/joy_stick.png" alt="A white joystick" class="joystick">
+      </div>
+    </section>
+
+    <section class="gameSection">
+      <div class="trendingGames">
+        <h3 class="poppins-bold">Currently Trending Games</h3>
+        <button class="btnGames poppins-medium">SEE ALL</button>
+      </div>
+      <div class="galery">
+        <div class="card">
+          <img src="images/section2/game1.png">
+          <div class="gameTitle rubik-medium">
+            <img src="images/section2/fire.png" alt="A fire icon">
+            <p> 40 Followers</p>
+          </div>
         </div>
-        <div class="game2 rubik-medium">
-          <img src="images/section2/fire.png" alt="A fire icon">
-          <p> 40 Followers</p>
+        <div class="card">
+          <img src="images/section2/game2.png">
+          <div class="gameTitle rubik-medium">
+            <img src="images/section2/fire.png" alt="A fire icon">
+            <p> 40 Followers</p>
+          </div>
         </div>
-        <div class="game3 rubik-medium">
-          <img src="images/section2/fire.png" alt="A fire icon">
-          <p> 40 Followers</p>
+        <div class="card">
+          <img src="images/section2/game3.png">
+          <div class="gameTitle rubik-medium">
+            <img src="images/section2/fire.png" alt="A fire icon">
+            <p> 40 Followers</p>
+          </div>
         </div>
-        <div class="game4 rubik-medium">
-          <img src="images/section2/fire.png" alt="A fire icon">
-          <p> 40 Followers</p>
+        <div class="card">
+          <img src="images/section2/game4.png">
+          <div class="gameTitle rubik-medium">
+            <img src="images/section2/fire.png" alt="A fire icon">
+            <p> 40 Followers</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="spiderManSection">
+      <h3 class="poppins-semibold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+      <div class="textContent">
+        <h4 class="poppins-semibold">Lorem Ipsum</h4>
+        <p class="text2 poppins-regular">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      </div>
+      <div class="imageContent">
+        <img class="spiderImage" src="images/section3/spiderman.png">
+        <img class="dots" src="images/section3/dots.png">
+      </div>
+    </section>
+  </main>
   <script src="main.js"></script>
 </body>
 
