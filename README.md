@@ -24,6 +24,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Seu navegador está atualizado.
 - É recomendável o uso do Chrome ou do Opera.
 
+## 📝 Instrução
+
+Para acessar o site, siga este seguinte passo:
+
+- Baixe o arquivo .ZIP
+- Exporte o arquivo.
+- Abra o arquivo index.html
+
 ## 🤝 Instrutores
 
 Este projeto foi e será analisado e julgado pelos seguintes instrutores:
