@@ -69,7 +69,9 @@ button:hover {
 }
 
 .logo {
+  color: white;
   font-size: 29px;
+  text-decoration: none;
 }
 
 header {

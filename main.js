@@ -7,3 +7,15 @@ document.addEventListener("scroll", (e) => {
     header.style.backgroundColor = "transparent";
   }
 });
+
+function sendFormData(e) {
+  e.preventDefault();
+  var formData = new FormData(e.target);
+  var data = {};
+  for (var pair of formData.entries()) {
+    data[pair[0]] = pair[1];
+  }
+  localStorage.setItem("formData", JSON.stringify(data));
+}
+
+function set

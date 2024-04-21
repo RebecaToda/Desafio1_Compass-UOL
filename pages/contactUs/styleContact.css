@@ -69,6 +69,8 @@ button:hover {
 
 .logo {
   font-size: 29px;
+  color: white;
+  text-decoration: none;
 }
 
 header {
@@ -126,10 +128,208 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 161px;
+  padding-top: 24vh;
 }
 
 section {
   padding: 0 10%;
+}
+.mapSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 93px;
+  text-align: center;
+}
+.text {
+  position: relative;
+  width: 100%;
+}
+.dot {
+  position: absolute;
+  content: "";
+  background-color: #f9d6ff;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  right: 0;
+}
+.markedText {
+  color: #e47500;
+}
+
+.title {
+  font-size: 33px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.sectionContact {
+  display: flex;
+}
+
+.location,
+.phone,
+.followUs {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 25px;
+  padding: 20px 50px;
+  border-right: 1px solid #f9d6ff;
+  flex: 1;
+}
+
+.location {
+  border: none;
+}
+
+.followUs {
+  flex-direction: column;
+  gap: 18px !important;
+}
+
+.followUs .socialIcons {
+  display: flex;
+  gap: 16px;
+}
+.followUs.socialIcons .shadowIcon {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+}
+
+.formSection {
+  background: url("/images/pageContact/FormBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 64px 0;
+  gap: 79px;
+}
+.formSection form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+.formSection form .doubleInput {
+  width: 100%;
+  display: flex;
+  gap: 27px;
+}
+.formSection form label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #4f4f4f;
+  font-size: 14px;
+  flex: 1;
+}
+
+input,
+textarea {
+  border: 1px solid #686868;
+  background-color: rgba(100, 100, 100, 0.07);
+  border-radius: 9px;
+  font-size: 24px;
+  width: 100%;
+  padding: 4px 6px;
+  color: white;
+}
+
+form button {
+  background-image: linear-gradient(to bottom right, #fa8305 0%, #fb9e3c 100%);
+  padding: 12px 48px;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.newsEmail {
+  padding-bottom: 10%;
+}
+
+.newsEmail .text {
+  width: 50%;
+}
+.newsEmail .text .title {
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+
+.newsEmail .text .legend {
+  font-size: 16px;
+  padding-bottom: 13%;
+}
+
+.emailContainer {
+  background-color: #1c140f;
+  border-radius: 15px;
+  padding: 3% 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.emailContainer .text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.emailAdress {
+  background-color: white;
+  padding: 14px 20px 14px 0px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 4px;
+}
+
+#emailInput {
+  padding-left: 20px;
+  color: #898989;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  width: 270px;
+  font-size: 16px;
+}
+
+.btnEmail {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #dc7000;
+  border-radius: 8px;
+  padding: 9px 18px;
+  text-align: center;
+  align-items: center;
+  width: 110px;
 }
 
 footer {
@@ -190,8 +390,7 @@ footer {
   padding-bottom: 20px;
 }
 
-.socialIcons {
-  width: 12%;
+.upFooter .socialIcons {
   align-self: flex-end;
 }
 

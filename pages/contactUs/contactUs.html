@@ -14,7 +14,9 @@
 
 <body>
   <header id="header">
-    <h1 class="logo poppins-extrabold">LOGO</h1>
+    <a class="logo" href="/">
+      <h1 class="poppins-extrabold">LOGO</h1>
+    </a>
     <div>
       <ul class="headerOptions poppins-regular">
         <div class="underBar"></div>
@@ -26,49 +28,71 @@
       <button class="contactUs poppins-regular">Contact Us</button>
     </div>
   </header>
+
   <main>
     <section class="mapSection">
-      <div class="poppins-regular">
-        <p>Home ></p>
-        <p> Contac Us</p>
-      </div>
-      <div>
-        <img src="/images/pageContact/dot.png" alt="">
-        <h2 class="poppins-semibold">Lorem Ipsum is simply dummy text of the printing and.</h2>
-        <p class="poppins-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+      <div class='text'>
+        <div class="poppins-regular">
+          <p>Home > <span class="markedText">Contact Us</span></p>
+        </div>
+        <div class="dot"></div>
+        <h1 class="title poppins-semibold">Lorem Ipsum is simply dummy text of the printing and.</h2>
+          <p class="subtitle poppins-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
       <img src="/images/pageContact/Huge Global.png" alt="global map">
-      <div>
-
-      </div>
-    </section>
-    <section class="form">
-      <div>
-        <div>
+      <div class="sectionContact">
+        <div class="followUs">
           <p class="poppins-regular">Follow Us</p>
+          <div class="socialIcons">
+            <img class="shadowIcon" src="/images/pageContact/followUs/FacebookIcon.png">
+            <img class="shadowIcon" src="/images/pageContact/followUs/InstagramIcon.png">
+            <img class="shadowIcon" src="/images/pageContact/followUs/TwitterIcon.png">
+            <img class="shadowIcon" src="/images/pageContact/followUs/LinkedinIcon.png">
+          </div>
         </div>
-        <div>
-          <img src="/images/pageContact/followUs/facebook.png">
-          <img src="/images/pageContact/followUs/instagram.png">
-          <img src="/images/pageContact/followUs/x.png">
-          <img src="/images/pageContact/followUs/linkedin.png">
-        </div>
-      </div>
-      <div>
-        <div>
+        <div class="phone">
           <img src="/images/pageContact/phone.png">
-        </div>
-        <div>
           <p class="poppins-light">+94 4444 5555 6</p>
         </div>
-      </div>
-      <div>
-        <div>
+        <div class="location">
           <img src="/images/pageContact/location.png">
-        </div>
-        <div>
           <p class="poppins-light">but also the leap into electronic typesetting</p>
         </div>
+      </div>
+    </section>
+    <section class="formSection">
+      <div class='text'>
+        <h1 class="poppins-regular">Say Hello</h1>
+        <h6 class="poppins-medium">Lorem Ipsum is simply dummy text of the printing .</h6>
+      </div>
+      <form id="contact" onsubmit="sendFormData(event)">
+        <div class="doubleInput">
+          <label class="poppins-medium">First Name<input name="firstName" type="text"></label>
+          <label class="poppins-medium">Last Name<input name="lastName" type="text"></label>
+        </div>
+        <label class="poppins-medium">Email Adress<input name="email" type="email"></label>
+        <label class="poppins-medium">Message
+          <textarea name="message" rows="5"> </textarea>
+        </label>
+        <button type="submit">Get in touch</button>
+      </form>
+    </section>
+    <section class="newsEmail">
+      <div class="text">
+        <h2 class="title poppins-semibold">Lorem Ipsum</h2>
+        <p class="legend poppins-regular">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="emailContainer">
+        <div class="text">
+          <h2 class="poppins-medium">Stay in the Loop</h2>
+          <p class="poppins-regular">Subscribe to receive the latest news and updates about TDA.</p>
+          <p>We promise not to spam you! </p>
+        </div>
+        <form class="emailAdress">
+          <input type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
+          <button class="btnEmail">Continue</button>
+        </form>
       </div>
     </section>
   </main>
@@ -109,7 +133,7 @@
     </div>
   </footer>
 
-  <script src="main.js"></script>
+  <script src="../../main.js"></script>
 </body>
 
 </html>
