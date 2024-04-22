@@ -13,8 +13,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Configurar os botões.
 - [x] Aplicar responsividade.
 - [x] Aplicar efeitos de Hover.
-- [ ] Validar as inserções de textos.
-- [ ] Mensagem de confirmação ao enviar os dados do formulário corretamente.
+- [x] Validar as inserções de textos.
+- [x] Mensagem de confirmação ao enviar os dados do formulário corretamente.
 
 ## 💻 Pré-requisitos
 
