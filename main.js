@@ -17,7 +17,7 @@ function sendFormData(e) {
     data[pair[0]] = pair[1]; //pair[0] = nome do input  pair[1]= valor do input
   }
 
-  const nomeRegex = /[A-Z][a-z]*/;
+  const nomeRegex = /^[A-Za-z]+$/;
 
   const emailRegex = /\w+@\w+\.\w+/;
 
