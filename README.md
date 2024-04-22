@@ -7,13 +7,13 @@ Todo o desenvolvimento do site foi feito exclusivamente por HTML, CSS e JavaScri
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Terminar toda a interface principal do site.
-- [ ] Adicionar o Footer.
-- [ ] Criar uma página de erro.
-- [ ] Configurar os botões.
-- [ ] Validar as inserções de textos.
+- [x] Terminar toda a interface principal do site.
+- [x] Adicionar o Footer.
+- [x] Criar uma página de erro.
+- [x] Configurar os botões.
 - [x] Aplicar responsividade.
 - [x] Aplicar efeitos de Hover.
+- [ ] Validar as inserções de textos.
 - [ ] Mensagem de confirmação ao enviar os dados do formulário corretamente.
 
 ## 💻 Pré-requisitos
