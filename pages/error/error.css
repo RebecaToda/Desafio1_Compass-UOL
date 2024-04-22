@@ -1,0 +1,243 @@
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.rubik-medium {
+  font-family: "rubik", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: ease-in-out 200ms;
+}
+
+body {
+  background: #39289f;
+  background-image: linear-gradient(0px #39289f 0%, #422f9c 100%);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  color: white;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 95px;
+  width: 100%;
+  height: 12vh;
+  position: fixed;
+  background-color: #39289f;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+header > div {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+.headerOptions {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 80px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.headerOptions .underBar {
+  position: absolute;
+  content: "";
+  width: 31px;
+  height: 4px;
+  background-color: #dc7000;
+  bottom: 0;
+  transform: translate(-6px, 14px);
+}
+
+.contactUs {
+  padding: 11px 30px;
+  border-radius: 6px;
+  background-color: #fa9021;
+  font-size: 13px;
+  color: white;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-top: 24vh;
+}
+
+section {
+  padding: 0 10%;
+}
+
+main {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+main .text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main .text h1 {
+  font-size: 120px;
+}
+
+main .text p {
+  font-size: 30px;
+}
+
+main img {
+  width: 20%;
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #070707;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upFooter {
+  padding: 80px 100px 60px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upFooter .logo {
+  width: 25%;
+}
+
+.upFooter .logo h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.upFooter .logo p {
+  font-size: 16px;
+}
+
+.atSign {
+  padding-top: 25px;
+}
+
+.upFooter .about {
+  width: 7%;
+}
+
+.upFooter .about h3 {
+  padding-bottom: 15px;
+}
+
+.upFooter .about ul li {
+  padding-bottom: 10px;
+}
+
+.upFooter .contact {
+  width: 20%;
+}
+
+.upFooter .contact h3 {
+  padding-bottom: 15px;
+}
+
+.upFooter .contact ul li {
+  padding-bottom: 20px;
+}
+
+.socialIcons {
+  width: 12%;
+  align-self: flex-end;
+}
+
+.line {
+  border-bottom: 0.8px solid #d2d2d2;
+}
+
+.copyright {
+  font-size: 13px;
+  padding: 40px;
+  text-align: center;
+  align-self: center;
+}

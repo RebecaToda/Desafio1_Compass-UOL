@@ -15,15 +15,15 @@
 <body>
   <header id="header">
     <a class="logo" href="/">
-      <h1 class="poppins-extrabold">LOGO</h1>
+      <span class="poppins-extrabold">LOGO</span>
     </a>
     <div>
       <ul class="headerOptions poppins-regular">
         <div class="underBar"></div>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Portfolio</li>
-        <li>News</li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="../error/error.html">About Us</a></li>
+        <li><a href="../error/error.html">Portfolio</a></li>
+        <li><a href="../error/error.html">News</a></li>
       </ul>
       <button class="contactUs poppins-regular">Contact Us</button>
     </div>
@@ -34,7 +34,9 @@
 
       <div class='text'>
         <div class="poppins-regular">
-          <p>Home > <span class="markedText">Contact Us</span></p>
+          <a href="/index.html">
+            <p>Home >
+          </a><span class="markedText">Contact Us</span></p>
         </div>
         <div class="dot"></div>
         <h1 class="title poppins-semibold">Lorem Ipsum is simply dummy text of the printing and.</h2>
@@ -45,10 +47,10 @@
         <div class="followUs">
           <p class="poppins-regular">Follow Us</p>
           <div class="socialIcons">
-            <img class="shadowIcon" src="/images/pageContact/followUs/FacebookIcon.png">
-            <img class="shadowIcon" src="/images/pageContact/followUs/InstagramIcon.png">
-            <img class="shadowIcon" src="/images/pageContact/followUs/TwitterIcon.png">
-            <img class="shadowIcon" src="/images/pageContact/followUs/LinkedinIcon.png">
+            <a href="https://www.facebook.com"><img class="shadowIcon" src="/images/pageContact/followUs/FacebookIcon.png"></a>
+            <a href="https://www.instagram.com"><img class="shadowIcon" src="/images/pageContact/followUs/InstagramIcon.png"></a>
+            <a href="https://twitter.com"><img class="shadowIcon" src="/images/pageContact/followUs/TwitterIcon.png"></a>
+            <a href="https://linkedin.com"><img class="shadowIcon" src="/images/pageContact/followUs/LinkedinIcon.png"></a>
           </div>
         </div>
         <div class="phone">
@@ -89,8 +91,8 @@
           <p class="poppins-regular">Subscribe to receive the latest news and updates about TDA.</p>
           <p>We promise not to spam you! </p>
         </div>
-        <form class="emailAdress">
-          <input type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
+        <form onsubmit="sendFormData(event)" class="emailAdress">
+          <input name="soloEmail" type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
           <button class="btnEmail">Continue</button>
         </form>
       </div>
@@ -110,7 +112,9 @@
           <li>Zeux</li>
           <li>Portfolio</li>
           <li>Careers</li>
-          <li>Contact us</li>
+          <a href="/pages/contactUs/contactUs.html">
+            <li>Contact us</li>
+          </a>
         </ul>
       </div>
       <div class="contact">
@@ -121,10 +125,10 @@
         </ul>
       </div>
       <div class="socialIcons">
-        <img src="/images/footer/facebook.png">
-        <img src="/images/footer/ig.png">
-        <img src="/images/footer/x.png">
-        <img src="/images/footer/linkedin.png">
+        <a href="https://www.facebook.com"><img src="/images/footer/facebook.png"></a>
+        <a href="https://www.instagram.com"><img src="/images/footer/ig.png"></a>
+        <a href="https://twitter.com"><img src="/images/footer/x.png"></a>
+        <a href="https://linkedin.com"><img src="/images/footer/linkedin.png"></a>
       </div>
     </div>
     <hr class="line">

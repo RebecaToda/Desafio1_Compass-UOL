@@ -10,12 +10,16 @@ document.addEventListener("scroll", (e) => {
 
 function sendFormData(e) {
   e.preventDefault();
-  var formData = new FormData(e.target);
+  const formData = new FormData(e.target);
   var data = {};
   for (var pair of formData.entries()) {
-    data[pair[0]] = pair[1];
+    //formDate.entries é um array de pairs (array de arrays)
+    data[pair[0]] = pair[1]; //pair[0] = nome do input  pair[1]= valor do input
   }
+
+  const nomeRegex = /[A-Z][a-z]+* [A-Z][a-z]*/;
+
+  const emailRegex = /\w+@\w+\.\w+/;
+
   localStorage.setItem("formData", JSON.stringify(data));
 }
-
-function set
