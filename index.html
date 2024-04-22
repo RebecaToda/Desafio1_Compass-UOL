@@ -154,11 +154,12 @@
             <p class="poppins-regular">Subscribe to receive the latest news and updates about TDA.</p>
             <p>We promise not to spam you! </p>
           </div>
-          <div>
-            <div class="emailAdress">
-              <input type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
+          <div class="formContainer">
+            <form onsubmit="sendFormData(event)" class="emailAdress">
+              <input name="soloEmail" type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
               <button class="btnEmail">Continue</button>
-            </div>
+            </form>
+            <p id="soloEmailError"></p>
           </div>
         </div>
       </section>

@@ -70,14 +70,22 @@
       </div>
       <form id="contact" onsubmit="sendFormData(event)">
         <div class="doubleInput">
-          <label class="poppins-medium">First Name<input name="firstName" type="text"></label>
-          <label class="poppins-medium">Last Name<input name="lastName" type="text"></label>
+          <label class="poppins-medium">First Name<input name="firstName" type="text">
+            <p id="firstNameError" style="display: none;">Invalid name.</p>
+          </label>
+          <label class="poppins-medium">Last Name<input name="lastName" type="text">
+            <p id="lastNameError" style="display: none;">Invalid last name.</p>
+          </label>
         </div>
-        <label class="poppins-medium">Email Adress<input name="email" type="email"></label>
+        <label class="poppins-medium">Email Adress<input name="email" type="email">
+          <p id="emailError" style="display: none;">Invalid e-mail.</p>
+        </label>
         <label class="poppins-medium">Message
           <textarea name="message" rows="5"> </textarea>
+          <p id="messageError" style="display: none;">Insert a message that contains between 20 to 300 characters.</p>
         </label>
         <button type="submit">Get in touch</button>
+        <p id="sucessSent" style="display: none;">Message sent sucessfully.</p>
       </form>
     </section>
     <section class="newsEmail">
@@ -91,10 +99,13 @@
           <p class="poppins-regular">Subscribe to receive the latest news and updates about TDA.</p>
           <p>We promise not to spam you! </p>
         </div>
-        <form onsubmit="sendFormData(event)" class="emailAdress">
-          <input name="soloEmail" type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
-          <button class="btnEmail">Continue</button>
-        </form>
+        <div class="formContainer">
+          <form onsubmit="sendFormData(event)" class="emailAdress">
+            <input name="soloEmail" type="email" placeholder="Enter email address" id="emailInput" class="poppins-light">
+            <button class="btnEmail">Continue</button>
+          </form>
+          <p id="soloEmailError"></p>
+        </div>
       </div>
     </section>
   </main>

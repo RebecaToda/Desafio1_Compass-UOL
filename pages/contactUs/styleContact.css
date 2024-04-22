@@ -315,6 +315,17 @@ button:hover {
   gap: 4px;
 }
 
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer p {
+  color: #ff5656;
+  display: none;
+  font-size: 12px;
+}
+
 #emailInput {
   padding-left: 20px;
   color: #898989;
