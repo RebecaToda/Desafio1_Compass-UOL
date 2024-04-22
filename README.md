@@ -1,13 +1,28 @@
 # Desafio 1 - Programa de Bolsas
 
 Este projeto é sem fim comerciais ou lucrativos, tendo como foco principal meu desenvolvimento profissional e aprendizagem de HTML, CSS e JavaScript. Este projeto foi idealizado pelos instrutores do Programa de Bolsas da Compass UOL para fins educacionais.
-Todo o desenvolvimento do site foi feito exclusivamente por HTML, CSS e JavaScript, sem uso de qualquer outra ferramenta ou biblioteca externa.
 
-## 🛠 Ajustes e melhorias
+<p align="center">
+  <a href="#Status_do_Projeto">Objetivos</a> •
+  <a href="#Status_do_Projeto">Status</a> •
+  <a href="#Pré-requisitos">Pré-requisitos</a> • 
+  <a href="#Tecnologias">Tecnologias</a> •
+  <a href="#Instruções">Instruções</a> • 
+  <a href="#Instrutores">Instrutores</a> • 
+  <a href="#Licença">Licença</a> • 
+  <a href="#autor">Autora</a>
+</p>
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+## 🚧 Status do Projeto
 
-- [x] Terminar toda a interface principal do site.
+Completo ✅
+
+## 🛠 Objetivos do Projeto
+
+O projeto teve como objetivos principais as seguintes tarefas:
+
+- [x] Concluir toda a interface principal do site.
+- [x] Adicionar o header.
 - [x] Adicionar o Footer.
 - [x] Criar uma página de erro.
 - [x] Configurar os botões.
@@ -24,7 +39,15 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Seu navegador está atualizado.
 - É recomendável o uso do Chrome ou do Opera.
 
-## 📝 Instrução
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML](https://html.com)
+- [CSS](https://www.w3.org/Style/CSS/)
+- [JavaScript](https://www.javascript.com)
+
+## 📝 Instruções
 
 Para acessar o site, siga este seguinte passo:
 
@@ -102,3 +125,15 @@ Este projeto foi e será analisado e julgado pelos seguintes instrutores:
 ## 📝 Licença
 
 Esse projeto está sob licença. Favor não copiar ou replicar o site para qualquer outro fim. Utilize-o apenas com a finalidade de observar e analisar meu desenvolvimento.
+
+## 👤 Autora
+
+<a href="https://www.linkedin.com/in/rebeca-toda-barbosa/)">
+ <img style="border: 100%;" src="https://media.licdn.com/dms/image/D4E03AQEHiV2V2qjCJw/profile-displayphoto-shrink_800_800/0/1711390263134?e=1719446400&v=beta&t=kJPQoN_wdQCYrrOHwndzPYSumUEXKQ44q9KkSwth3L0" width="100px;" alt=""/>
+ <br />
+ <sub><b>Rebeca Toda</b></sub></a>
+
+Feito por Rebeca Toda ✨ Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rebeca-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rebeca-toda-barbosa/)](https://www.linkedin.com/in/rebeca-toda-barbosa/)
+[![Gmail Badge](https://img.shields.io/badge/-rebecatbarbosa8@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rebecatbarbosa8@gmail.com)](mailto:rebecatbarbosa8@gmail.com)
